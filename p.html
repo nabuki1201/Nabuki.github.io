@@ -18,7 +18,7 @@
 						video.autoplay = true;
 				
 						var hls = new Hls();
-						hls.loadSource('rtmp://125.139.17.111/hls/nabuki');
+						hls.loadSource('http://nabuki.0pe.kr/hls/nabuki.m3u8');
 						hls.attachMedia(video);
 						hls.on(Hls.Events.MANIFEST_PARSED,function() {
 							video.play
